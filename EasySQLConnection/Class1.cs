@@ -67,10 +67,10 @@ namespace EasySQLConnection
         ///                            VALUES для INSERT,
         ///                            SET для UPDATE</param>
         /// <param name="tableName">Название таблицы к которой поступит запрос.</param>
-        //public void ExecuteUniversalSqlQuery(string Method, string[] сolumns, string methodprefix, string tableName  )
-        //{
-        //    string sqlQuery = $@"{Method} {сolumns} {methodprefix} {tableName}";
-        //}
+        public void ExecuteUniversalSqlQuery(string Method, string[] сolumns, string methodprefix, string tableName)
+        {
+            string sqlQuery = $@"{Method} {сolumns} {methodprefix} {tableName}";
+        }
     }
 }
 
